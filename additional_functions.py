@@ -1,3 +1,6 @@
+import base64
+import time
+
 def checking_numbers_func(checking_numbers:list):
     for num in checking_numbers:
         try:
@@ -24,6 +27,35 @@ def checking_string_parameters(server_ip:str, server_port=7777):
 
     return True
 
-def create_message(encoding):
+def create_message():
     text = input('Введите сообщение: ')
-    return text.encode(encoding)
+    return text
+
+def coding_password(passwoer):
+    passwoer_utf = passwoer.encode('utf-8')
+    passwoer_encode_base64 = base64.b64encode(passwoer_utf)
+    return passwoer_encode_base64
+
+def checking_string(server_connect):
+    if '-p' not in server_connect:
+        raise ValueError('Введите корректно команду -p номер_порта')
+    if '-a' not in server_connect:
+        raise ValueError('Введите корректно команду -a ip_адресс')
+    checking_string_parameters(server_connect[server_connect.index('-a')+1], server_connect[server_connect.index('-p')+1])
+    return True
+
+def compose_answer(action, code, response, text):
+    if action in ['authenticate', 'presence', 'msg', 'quit'] and code == 'alert':
+        answer_server = {
+            'response': response,
+            'alert': text,
+            "time": time.ctime(time.time())}
+        if action == 'presence':
+            answer_server["action"] = "probe"
+    if action in ['authenticate', 'presence', 'msg'] and code == 'error':
+        answer_server = {
+            'response': response,
+            'error': text,
+            "time": time.ctime(time.time())}
+
+    return answer_server
