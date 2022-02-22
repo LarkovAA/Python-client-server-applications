@@ -1,6 +1,7 @@
 import sys
+sys.path.append('..')
 import unittest
-from additional_functions import checking_numbers_func,checking_string_parameters,checking_string,compose_answer
+from common.additional_functions import checking_numbers_func,checking_string_parameters,checking_string,compose_answer
 from unittest.mock import patch
 
 class TestAdditionalFunctions(unittest.TestCase):
@@ -24,7 +25,7 @@ class TestAdditionalFunctions(unittest.TestCase):
     def test_checking_string_parameters_raise(self):
         server_ip = '127.0.0.1'
         server_port = 100000000
-        self.assertRaises(ValueError, checking_string_parameters(server_ip, server_port))
+        self.assertRaises(ValueError, checking_string_parameters, server_ip, server_port)
 
     def test_create_message(self):
         text = 'Hello world'
@@ -39,20 +40,21 @@ class TestAdditionalFunctions(unittest.TestCase):
         self.assertEqual(checking_string(sys.argv), True)
     @patch.object(sys, 'argv', ['additional_functions.py', '-a', '127.0.0.1', '-p', 10000000])
     def test_checking_string_raise(self):
-        self.assertRaises(ValueError, checking_string(sys.argv))
+        self.assertRaises(ValueError, checking_string, sys.argv)
 
     def test_compose_answer_true(self):
+        answer = {'response': 202, 'alert': 'Вы подключены', 'time': 10}
         action = 'authenticate'
         code = 'alert'
         response = 202
         text = 'Вы подключены'
-        self.assertEqual(compose_answer(action, code, response, text), True)
+        self.assertEqual(compose_answer(action, code, response, text), answer)
     def test_compose_answer_raise(self):
         action = ''
         code = 'alert'
         response = 202
         text = 'Вы подключены'
-        self.assertRaises(UnboundLocalError, compose_answer(action, code, response, text))
+        self.assertRaises(UnboundLocalError, compose_answer, action, code, response, text)
 
 if __name__ == "__main__":
     unittest.main()

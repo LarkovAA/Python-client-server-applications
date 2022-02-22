@@ -4,8 +4,8 @@ import json
 import sys
 
 
-from additional_functions import checking_string_parameters, create_message
-from configurable_variables import MESSENGE_ENCODE, SERVER_PORT
+from common.additional_functions import checking_string_parameters, create_message
+from common.configurable_variables import MESSENGE_ENCODE, SERVER_PORT
 
 def presence_messege(client):
     msg_dict = {"action": "presence",

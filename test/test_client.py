@@ -1,9 +1,10 @@
 import sys
+sys.path.append('..')
 import unittest
 from socket import *
 from unittest.mock import patch
-
 from client import presence_messege, message, register_client, quit
+
 
 
 class TestClient(unittest.TestCase):
@@ -15,6 +16,11 @@ class TestClient(unittest.TestCase):
 
     def sepUp(self):
         pass
+    # Хотел что бы перед запуском тестирования запускался сервер но не получилось почему то
+    #     server_connect = self.server_connect[:]
+    #     server_connect = server_connect.insert(1, '-a')
+    #     server_connect = server_connect.insert(3, '-p')
+    #     run_server(MESSENGE_ENCODE, SERVER_PORT, server_connect)
 
     def tearDown(self):
         pass
@@ -42,7 +48,6 @@ class TestClient(unittest.TestCase):
         self.client.connect((str(self.server_connect[1]), int(self.server_connect[2])))
         answer = {'alert': 'Вы вышли c сервера', 'response': 202, 'time': 10}
         self.assertEqual(quit(self.client, 'utf-8'), answer)
-
 
 if __name__ == "__main__":
     unittest.main()

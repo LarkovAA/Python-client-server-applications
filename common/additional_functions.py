@@ -1,5 +1,5 @@
-import base64
-import time
+import sys
+sys.path.append('..')
 
 def checking_numbers_func(checking_numbers:list):
     for num in checking_numbers:
@@ -23,7 +23,8 @@ def checking_string_parameters(server_ip:str, server_port=7777):
     if server_port < 1024:
         raise ValueError('Введите недопустипое значение порта. Данный порт уже зарезервирован.')
     if server_port > 65536:
-        raise ValueError('Введите недопустипое значение порта. Данного порта не может сушествовать.')
+        raise ValueError
+        #('Введите недопустипое значение порта. Данного порта не может сушествовать.')
 
     return True
 
