@@ -1,0 +1,3 @@
+1645869042.558801 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Sat Feb 26 13:50:42 2022 Функция вызвана из модуля common.additional_functions
+1645869057.661627 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Sat Feb 26 13:50:57 2022 Функция вызвана из модуля common.additional_functions
+1645869058.036028 DEBUG client Старт запросов пользователя
