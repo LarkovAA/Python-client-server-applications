@@ -1,0 +1,116 @@
+1645869042.558801 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Sat Feb 26 13:50:42 2022 Функция вызвана из модуля common.additional_functions
+1645869057.661627 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Sat Feb 26 13:50:57 2022 Функция вызвана из модуля common.additional_functions
+1645869058.036028 DEBUG client Старт запросов пользователя
+1646229809.758855 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:03:29 2022 Функция вызвана из модуля common.additional_functions
+1646229811.457952 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:03:31 2022 Функция вызвана из модуля common.additional_functions
+1646229811.738968 DEBUG client Старт запросов пользователя
+1646231121.632890 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:25:20 2022 Функция вызвана из модуля common.additional_functions
+1646231127.112203 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:25:26 2022 Функция вызвана из модуля common.additional_functions
+1646231128.145262 DEBUG client Старт запросов пользователя
+1646231145.070230 INFO client Вы подключены, код 202
+1646231148.262413 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 18:25:47 2022 Функция вызвана из модуля __main__
+1646231183.767444 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:26:22 2022 Функция вызвана из модуля common.additional_functions
+1646231211.015002 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646231385.122961 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:29:45 2022 Функция вызвана из модуля common.additional_functions
+1646231385.122961 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:29:45 2022 Функция вызвана из модуля common.additional_functions
+1646231385.122961 DEBUG client Старт запросов пользователя
+1646231385.124961 INFO client Вы подключены, код 202
+1646231385.124961 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 18:29:45 2022 Функция вызвана из модуля __main__
+1646231396.233596 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:29:56 2022 Функция вызвана из модуля common.additional_functions
+1646231396.827630 INFO client 202 привет
+1646231396.827630 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'привет'), {}, Wed Mar  2 18:29:56 2022 Функция вызвана из модуля __main__
+1646231413.913607 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:30:13 2022 Функция вызвана из модуля common.additional_functions
+1646231413.913607 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646231460.670282 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:30:59 2022 Функция вызвана из модуля common.additional_functions
+1646231465.030531 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:31:04 2022 Функция вызвана из модуля common.additional_functions
+1646231465.810576 DEBUG client Старт запросов пользователя
+1646231471.611907 INFO client Вы подключены, код 202
+1646231520.885726 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 18:32:00 2022 Функция вызвана из модуля __main__
+1646231550.470418 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:32:29 2022 Функция вызвана из модуля common.additional_functions
+1646231603.799468 INFO client 202 привет
+1646231625.043683 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'привет'), {}, Wed Mar  2 18:33:44 2022 Функция вызвана из модуля __main__
+1646231651.048171 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:34:10 2022 Функция вызвана из модуля common.additional_functions
+1646231666.185037 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646231746.320620 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:35:45 2022 Функция вызвана из модуля common.additional_functions
+1646231749.927826 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:35:49 2022 Функция вызвана из модуля common.additional_functions
+1646231750.287847 DEBUG client Старт запросов пользователя
+1646231752.911997 INFO client Вы подключены, код 202
+1646231754.151068 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 18:35:53 2022 Функция вызвана из модуля __main__
+1646231768.919913 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:36:08 2022 Функция вызвана из модуля common.additional_functions
+1646231776.266333 INFO client 202 ыыы
+1646231779.538520 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'ыыы'), {}, Wed Mar  2 18:36:19 2022 Функция вызвана из модуля __main__
+1646231789.295078 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 18:36:28 2022 Функция вызвана из модуля common.additional_functions
+1646231805.542007 INFO client 202 вввв
+1646231812.652414 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'вввв'), {}, Wed Mar  2 18:36:52 2022 Функция вызвана из модуля __main__
+1646232034.148083 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 18:40:34 2022 Функция вызвана из модуля common.additional_functions
+1646232034.148083 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 18:40:34 2022 Функция вызвана из модуля common.additional_functions
+1646232034.148083 DEBUG client Старт запросов пользователя
+1646232034.149083 INFO client Вы подключены, код 202
+1646232034.150083 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 18:40:34 2022 Функция вызвана из модуля __main__
+1646233237.838930 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.848931 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.849931 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.849931 DEBUG client Старт запросов пользователя
+1646233237.849931 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.870932 DEBUG client Старт запросов пользователя
+1646233237.870932 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.871932 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля common.additional_functions
+1646233237.872932 DEBUG client Старт запросов пользователя
+1646233237.873932 INFO client Вы подключены, код 202
+1646233237.874932 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля __main__
+1646233237.875932 INFO client Вы подключены, код 202
+1646233237.875932 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля __main__
+1646233237.877932 INFO client Вы подключены, код 202
+1646233237.877932 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:00:37 2022 Функция вызвана из модуля __main__
+1646233254.809901 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 19:00:54 2022 Функция вызвана из модуля common.additional_functions
+1646233255.293928 INFO client 202 dddd
+1646233255.293928 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'dddd'), {}, Wed Mar  2 19:00:55 2022 Функция вызвана из модуля __main__
+1646233255.294928 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646233255.294928 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646233374.277734 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:02:53 2022 Функция вызвана из модуля common.additional_functions
+1646233419.097297 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:03:38 2022 Функция вызвана из модуля common.additional_functions
+1646233419.509321 DEBUG client Старт запросов пользователя
+1646233483.239966 INFO client Вы подключены, код 202
+1646233487.213193 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:04:46 2022 Функция вызвана из модуля __main__
+1646233628.431271 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.431271 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.431271 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.432271 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.432271 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.441271 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:07:08 2022 Функция вызвана из модуля common.additional_functions
+1646233628.441271 DEBUG client Старт запросов пользователя
+1646233628.441271 DEBUG client Старт запросов пользователя
+1646233628.442271 DEBUG client Старт запросов пользователя
+1646233708.147830 INFO client Вы подключены, код 202
+1646233708.147830 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:08:28 2022 Функция вызвана из модуля __main__
+1646233755.212522 INFO client Вы подключены, код 202
+1646233755.212522 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:09:15 2022 Функция вызвана из модуля __main__
+1646233797.804958 INFO client Вы подключены, код 202
+1646233797.804958 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:09:57 2022 Функция вызвана из модуля __main__
+1646233996.146303 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 19:13:16 2022 Функция вызвана из модуля common.additional_functions
+1646234129.442927 INFO client 202 sss
+1646234129.442927 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'sss'), {}, Wed Mar  2 19:15:29 2022 Функция вызвана из модуля __main__
+1646234472.194531 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646234485.243277 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.251278 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.252278 DEBUG client Старт запросов пользователя
+1646234485.264278 INFO client Вы подключены, код 202
+1646234485.268279 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля __main__
+1646234485.277279 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.277279 DEBUG log_data Была вызвана функция checking_numbers_func с атрибудами (['127', '0', '0', '1'],), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.277279 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.277279 DEBUG log_data Была вызвана функция checking_string_parameters с атрибудами ('127.0.0.1', 7777), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля common.additional_functions
+1646234485.277279 DEBUG client Старт запросов пользователя
+1646234485.285280 DEBUG client Старт запросов пользователя
+1646234485.288280 INFO client Вы подключены, код 202
+1646234485.288280 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля __main__
+1646234485.292280 INFO client Вы подключены, код 202
+1646234485.293280 DEBUG log_data Была вызвана функция presence_messege с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}, Wed Mar  2 19:21:25 2022 Функция вызвана из модуля __main__
+1646234501.370200 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 19:21:41 2022 Функция вызвана из модуля common.additional_functions
+1646234501.788224 INFO client 202 xxx
+1646234501.788224 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'xxx'), {}, Wed Mar  2 19:21:41 2022 Функция вызвана из модуля __main__
+1646234501.791224 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646234520.986322 DEBUG log_data Была вызвана функция create_message с атрибудами (), {}, Wed Mar  2 19:22:00 2022 Функция вызвана из модуля common.additional_functions
+1646234521.792368 ERROR client Клиент не смог зайти на сервер 127.0.0.1 орт 7777
+1646234521.793368 INFO client 202 ghbdtn
+1646234521.793368 DEBUG log_data Была вызвана функция message с атрибудами (<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, 'utf-8', 'ghbdtn'), {}, Wed Mar  2 19:22:01 2022 Функция вызвана из модуля __main__
